@@ -23,6 +23,9 @@ margin-top: 15px;
     padding-top: 20px;
 }
   .but{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
     padding-left: 450px;
     padding-top: 10px;
   }
