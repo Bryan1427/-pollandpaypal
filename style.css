@@ -1,74 +1,40 @@
 *{
-    margin: 0px;
-    padding: 0px;
     font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
-.yoo{
+.first{
     display: flex;
+    font-style: oblique;
     flex-direction: row;
-    padding-left: 150px;
-    font-size: 20px;
-    padding-top: 6px;
-    padding-bottom: 10px;
-   
+padding-left: 50px;
+margin-top: 15px;
+
 }
-.one{
+.head1{
     color: #27346A;
 }
-.yoo .two{
+.head2{
     color: #2790C3;
- 
 }
 .para{
-    padding-left: 360px;
-    padding-top: 25px;
-    font-size: 15px;
+    padding-left: 290px;
     font-weight: bolder;
-  
-}
-.but{
-    padding-left: 420px;
     padding-top: 20px;
 }
-.but button{
-    
-    border:1px solid #0070BA;
-    background-color: white;
-    width: 70px;
-    height: 39px;
-    border-radius: 17px;
+  .but{
+    padding-left: 370px;
+    padding-top: 10px;
+  }
+.link a{
+    padding:6px 8px 6px 8px;
+    border-radius: 10px;
+    border:1px solid #0070B9;
+    font-weight: bolder;
+
 }
-.but2{
-    padding-top: 20px;
-    padding-left: 8px;
-}
-.but2 button{
-    background-color: #0070BA;
-    width: 70px;
-    height: 39px;
-    border-radius: 17px;
-    color: white;
-    border: 0px;
-}
-.img{
-background-image: url(paypal3.jpg);
-    width: 1345px;
-    height: 600px;
-background-size: cover;
-}
-.star{
-    padding-top: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 30px;
-}
-.star h1{
-padding-left: 380px;
-}
-.star p{
-    padding-left: 100px;
-}
-.text{
-    font-style: oblique;
+.image{
+    width: 1000px;
+    height: 700px;
+    background-image: url(paypal.jpeg);
 }
