@@ -1,40 +1,37 @@
-*{
-    font-family: sans-serif;
-    padding: 0px;
-    margin: 0px;
+.new{
+    width: 600px;
+    height: 500px;
+   
+   
 }
-.first{
-    display: flex;
-    font-style: oblique;
-    flex-direction: row;
-padding-left: 50px;
-margin-top: 15px;
-
-}
-.head1{
-    color: #27346A;
-}
-.head2{
-    color: #2790C3;
+.how{
+    color: red;
+    font-size: 100px;
 }
 .para{
-    padding-left: 290px;
-    font-weight: bolder;
-    padding-top: 20px;
+    font-size: 30px;
+  padding-left: 40px;
+  font-weight: bolder;
+  font-family: sans-serif;
 }
-  .but{
-    padding-left: 370px;
-    padding-top: 10px;
-  }
-.link a{
-    padding:6px 8px 6px 8px;
-    border-radius: 10px;
-    border:1px solid #0070B9;
-    font-weight: bolder;
-
+.hoo{
+    padding-left: 70px;
+    font-family:sans-serif ;
 }
-.image{
-    width: 1000px;
-    height: 700px;
-    background-image: url(paypal.jpeg);
+.grey{
+    margin-left: 160px;
+    width: 100px;
+    height: 100px;
+    border: 10px solid black;
+    border-radius: 50%;
+    border-top: 10px solid red;
+    animation: rotate 1s linear infinite
+}
+@keyframes rotate{
+from{transform: rotate(0deg);}
+to{transform: rotate(360deg);}
+}
+.you{
+    font-size: 110px;
+    padding-left: 180px;
 }
