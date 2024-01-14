@@ -10,13 +10,13 @@
     
 }
 .start{
-    padding-left: 100px;
+    padding-left: 80px;
     color:#0070BA;
     font-size: 9px;
 }
 .xup{
     margin-top: 60px;
-    margin-left: 150px;
+    margin-left: 120px;
     width: 40px;
     height: 40px;
     border: 1px solid white;
@@ -31,7 +31,7 @@
     to{transform: rotate(360deg);background-color: white;}
   }
   .stop{
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 20px;
     font-size: 6px;
     color: #0070BA;
