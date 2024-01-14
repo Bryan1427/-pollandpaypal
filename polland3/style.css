@@ -1,0 +1,40 @@
+*{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.first{
+    display: flex;
+    font-style: oblique;
+    flex-direction: row;
+padding-left: 50px;
+margin-top: 15px;
+
+}
+.head1{
+    color: #27346A;
+}
+.head2{
+    color: #2790C3;
+}
+.para{
+    padding-left: 290px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+  .but{
+    padding-left: 370px;
+    padding-top: 10px;
+  }
+.link a{
+    padding:6px 8px 6px 8px;
+    border-radius: 10px;
+    border:1px solid #0070B9;
+    font-weight: bolder;
+
+}
+.image{
+    width: 1000px;
+    height: 700px;
+    background-image: url(paypal.jpeg);
+}
