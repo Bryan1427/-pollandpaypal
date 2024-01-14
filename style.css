@@ -18,12 +18,12 @@ margin-top: 15px;
     color: #2790C3;
 }
 .para{
-    padding-left: 290px;
+    padding-left: 500px;
     font-weight: bolder;
     padding-top: 20px;
 }
   .but{
-    padding-left: 370px;
+    padding-left: 450px;
     padding-top: 10px;
   }
 .link a{
@@ -34,7 +34,8 @@ margin-top: 15px;
 
 }
 .image{
-    width: 1000px;
+    background-size: cover;
+    width: 1300 px;
     height: 700px;
     background-image: url(paypal.jpeg);
 }
