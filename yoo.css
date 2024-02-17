@@ -1,20 +1,13 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: sans-serif;
-}
-.yoo{
-    width: 600px;
-    height: 700px;
-  
-    
-}
-.start{
+.lii{
     padding-left: 80px;
     color:#0070BA;
     font-size: 9px;
 }
-.xup{
+.beg{
+    width: 600px;
+    height: 700px;
+}
+.you{
     margin-top: 60px;
     margin-left: 120px;
     width: 40px;
@@ -26,19 +19,21 @@
     animation: rotate 1s linear infinite;
     
 }
-  @keyframes rotate{
+@keyframes rotate{
     from{transform: rotate(0deg);background-color: black; }
     to{transform: rotate(360deg);background-color: white;}
-  }
-  .stop{
-    margin-left: 100px;
-    margin-top: 20px;
-    font-size: 6px;
-    color: #0070BA;
-  }
-  .stop2{
-    margin-top: 80px;
-color:#00143D;
-font-size: 9px;
-
-  }
+    to {
+        transform: rotate(360deg);
+        background-color: white;
+      }
+    }
+    .stop5{
+        
+            margin-left: 50px;
+            margin-top: 80px;
+            color: #00143D;
+            font-size: 9px;
+          
+          
+    }
+  

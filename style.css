@@ -1,76 +1,74 @@
 *{
-    padding: 0;
-    margin:0 ;
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
-    box-sizing: border-box;
 }
-.start{
+.yoo{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items:center ;
-    padding:0px 60px ;
-
-
+    padding-left: 150px;
+    font-size: 20px;
+    padding-top: 6px;
+    padding-bottom: 10px;
+   
 }
-.start p{
-    color: navy;
+.one{
+    color: #27346A;
 }
-.button1{
-    border: 1px solid #0070BA;
-    color:#0070BA;
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
+.yoo .two{
+    color: #2790C3;
+ 
+}
+.para{
+    padding-left: 360px;
+    padding-top: 25px;
+    font-size: 15px;
+    font-weight: bolder;
+  
+}
+.but{
+    padding-left: 420px;
+    padding-top: 20px;
+}
+.but button{
+    
+    border:1px solid #0070BA;
     background-color: white;
+    width: 70px;
+    height: 39px;
+    border-radius: 17px;
 }
-.but1{
-    width: 100px;
-    height: 50px;
-    border-radius: 30px;
+.but2{
+    padding-top: 20px;
+    padding-left: 8px;
+}
+.but2 button{
     background-color: #0070BA;
-    border: 0px;
+    width: 70px;
+    height: 39px;
+    border-radius: 17px;
     color: white;
+    border: 0px;
 }
-.imgg{
-    background: url(stock.jpg),rgba(0, 0, 0, 0.5);
-    width: 100%;
-    height: 500px;
-    background-size: cover;
+.img{
+background-image: url(paypal3.jpg);
+    width: 1345px;
+    height: 600px;
+background-size: cover;
 }
-
-.image1{
-    width: 160px;
+.star{
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
 }
-
-@media screen and (max-width: 700px) {
-
-    .start {
-        padding: 0px 30px;
-    }
-      .button1{width: 70px;
-    height: 30px;}
-    .but1{
-        width: 70px;
-        height: 30px;
-    }
+.star h1{
+padding-left: 380px;
 }
-
-@media screen and (max-width: 450px){
-    .start{
-        padding: 0px 10px;
-    }
+.star p{
+    padding-left: 100px;
 }
-@media screen and (max-width:450px){
-    .image1{
-        width: 80px;
-    }
-    .start p{
-        font-size:10px ;
-    }
-    .imgg{
-        width: 100%;
-        background-position: center;
-
-    }
+.text{
+    font-style: oblique;
 }
