@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+  }
+  
+  .yoo {
+    width: 600px;
+    height: 700px;
+  
+  
+  }
+  
+  .start {
+    padding-left: 80px;
+    color: #0070BA;
+    font-size: 9px;
+  }
+  
+  .xup {
+    margin-top: 60px;
+    margin-left: 120px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    border-width: 10px;
+    border-top: 10px solid #0070BA;
+    animation: rotate 1s linear infinite;
+  
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+      background-color: black;
+    }
+  
+    to {
+      transform: rotate(360deg);
+      background-color: white;
+    }
+  }
+  
+  .stop {
+    margin-left: 100px;
+    margin-top: 20px;
+    font-size: 6px;
+    color: #0070BA;
+  }
+  
+  .stop2 {
+    margin-left: 50px;
+    margin-top: 80px;
+    color: #00143D;
+    font-size: 9px;
+  
+  }
