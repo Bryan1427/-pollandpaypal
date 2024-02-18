@@ -72,3 +72,26 @@ padding-left: 380px;
 .text{
     font-style: oblique;
 }
+@media screen and (max-width: 420px){
+    .img{
+        width: 348px;
+        height: 350px;
+        background-size: contain;
+
+    }
+    .yoo h1{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .yoo p{
+        font-size:15px;
+    }
+    .yoo{
+        padding-left: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
+    
